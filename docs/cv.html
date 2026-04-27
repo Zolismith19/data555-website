@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Curriculum Vitae</title>
+
+<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Zoli Grace Smith</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="cv.html">
+    <span class="fa fa-file-alt"></span>
+     
+    CV
+  </a>
+</li>
+<li>
+  <a href="projects.html">
+    <span class="fa fa-laptop-code"></span>
+     
+    Projects
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/Zolismith19">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/zoligsmith/">
+    <span class="fa fa-linkedin"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="mailto:zgsmit25@gmail.com">
+    <span class="fa fa-envelope"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Curriculum Vitae</h1>
+
+</div>
+
+
+<div class="cv-bar">
+<p><i class="fa fa-envelope"></i>
+<a href="mailto:zgsmit25@gmail.com">zgsmit25@gmail.com</a>   
+<i class="fa fa-phone"></i> (202) 815-7563   
+<i class="fa fa-github"></i>
+<a href="https://github.com/Zolismith19" target="_blank">Zolismith19</a>
+   <i class="fa fa-linkedin"></i>
+<a href="https://www.linkedin.com/in/zoligsmith/" target="_blank">zoligsmith</a></p>
+</div>
+<hr />
+<div id="education" class="section level2">
+<h2>Education</h2>
+<div class="cv-entry">
+<div class="cv-row">
+<div>
+<strong>Johns Hopkins Medicine</strong>, Baltimore, MD
+</div>
+<div class="cv-date">
+Expected May 2030
+</div>
+</div>
+<div class="cv-sub">
+PhD Student, Health Science Informatics
+</div>
+</div>
+<div class="cv-entry">
+<div class="cv-row">
+<div>
+<strong>Emory University, Rollins School of Public Health</strong>,
+Atlanta, GA
+</div>
+<div class="cv-date">
+Expected May 2026
+</div>
+</div>
+<div class="cv-sub">
+MPH, Epidemiology
+</div>
+<ul>
+<li>
+<strong>Thesis:</strong> Time-to-Event Analysis of Hormone Therapy
+Initiation and Cardiovascular Outcomes by Testosterone Dose and Route
+</li>
+<li>
+<strong>Coursework:</strong> Statistical Methods I-II, Epidemiologic
+Methods I-III, Design and Implementation of Epidemiologic Studies,
+Applied Machine Learning, Large-Scale Biomedical Data Analysis,
+Genetic/Molecular Epidemiology
+</li>
+</ul>
+</div>
+<div class="cv-entry">
+<div class="cv-row">
+<div>
+<strong>Spelman College</strong>, Atlanta, GA
+</div>
+<div class="cv-date">
+May 2024
+</div>
+</div>
+<div class="cv-sub">
+B.A. in Psychology (Minor: Spanish) – Summa cum laude
+</div>
+<ul>
+<li>
+Top 5 Graduate; Ethell Wadell Githii Honors Scholar
+</li>
+<li>
+<strong>Thesis:</strong> Strong Black Woman Schema and Emotional
+Overeating
+</li>
+</ul>
+</div>
+<hr />
+</div>
+<div id="certifications" class="section level2">
+<h2>Certifications</h2>
+<div class="cv-entry">
+<div class="cv-row">
+<div>
+<strong>CITI Certification</strong> – Basic Course in Human Subjects
+Protection (Social/Behavioral Focus)
+</div>
+<div class="cv-date">
+August 2024
+</div>
+</div>
+</div>
+<hr />
+</div>
+<div id="research-experience" class="section level2">
+<h2>Research Experience</h2>
+<div class="cv-entry">
+<div class="cv-row">
+<div>
+<strong>Single-Cell Genomics Research Assistant</strong> – Emory
+University
+</div>
+<div class="cv-date">
+Oct 2025 – Present
+</div>
+</div>
+<div class="cv-sub">
+PI: Dr. Chang Su
+</div>
+<ul>
+<li>
+Analyze single-cell multi-omic data using SCARlink, a regression
+framework linking chromatin accessibility and gene expression
+</li>
+<li>
+Investigate enhancer-gene interactions and transcriptional regulation in
+Alzheimer’s disease
+</li>
+<li>
+Identify disrupted regulatory networks contributing to neurodegeneration
+</li>
+</ul>
+</div>
+<div class="cv-entry">
+<div class="cv-row">
+<div>
+<strong>MPH Thesis – STRONG Cohort</strong> – Emory University
+</div>
+<div class="cv-date">
+May 2025 – Present
+</div>
+</div>
+<ul>
+<li>
+Conducting time-to-event and causal inference analyses of EHR data for
+cardiovascular outcomes associated with testosterone therapy (N
+approximately 345,000)
+</li>
+<li>
+Build reproducible analytical pipelines, bias analysis, and missing data
+management
+</li>
+<li>
+Apply survival models, DAGs, and data cleaning workflows to real-world
+clinical data
+</li>
+</ul>
+</div>
+<div class="cv-entry">
+<div class="cv-row">
+<div>
+<strong>Research Fellow – Summer Cancer Research Education Program
+(SCREP)</strong> – Morehouse School of Medicine
+</div>
+<div class="cv-date">
+June – Aug 2025
+</div>
+</div>
+<ul>
+<li>
+Retrospective cohort study of 300 lung cancer patients at Grady Health
+System
+</li>
+<li>
+Used chi-square tests and logistic regression to assess disparities in
+staging and subtype
+</li>
+<li>
+Presented results at the Cancer Research Symposium (<strong>2nd Place
+Award</strong>)
+</li>
+</ul>
+</div>
+<hr />
+</div>
+<div id="data-science-and-technical-experience" class="section level2">
+<h2>Data Science and Technical Experience</h2>
+<div class="cv-entry">
+<div class="cv-row">
+<div>
+<strong>Data Science Intern</strong> – CARE (Impact Partners),
+Remote/Atlanta, GA
+</div>
+<div class="cv-date">
+June – Aug 2025
+</div>
+</div>
+<ul>
+<li>
+Analyzed baseline and endline survey data from cocoa-sector programs in
+Ghana and Cote d’Ivoire
+</li>
+<li>
+Synthesized quantitative and qualitative evidence into mixed-methods
+donor reports
+</li>
+</ul>
+</div>
+<div class="cv-entry">
+<div class="cv-row">
+<div>
+<strong>Data Scientist – DATA 550 GitHub Project</strong> – Emory
+University
+</div>
+<div class="cv-date">
+Jan – May 2025
+</div>
+</div>
+<ul>
+<li>
+Developed a fully reproducible data science pipeline integrating public
+health datasets through GitHub, R, and R Markdown
+</li>
+<li>
+Built modular scripts for data ingestion, cleaning, transformation, and
+visualization
+</li>
+</ul>
+</div>
+<hr />
+</div>
+<div id="teaching" class="section level2">
+<h2>Teaching</h2>
+<div class="cv-entry">
+<div class="cv-row">
+<div>
+<strong>Teaching Assistant, EPI 534</strong> – Emory University
+</div>
+<div class="cv-date">
+Aug – Dec 2025
+</div>
+</div>
+<ul>
+<li>
+Supported instruction for 46 MPH students in a core epidemiologic
+methods course
+</li>
+<li>
+Held weekly office hours, assisted with R- and SAS-based problem sets
+</li>
+<li>
+Collaborated with faculty to grade assignments and provide feedback
+</li>
+</ul>
+</div>
+<hr />
+</div>
+<div id="presentations" class="section level2">
+<h2>Presentations</h2>
+<div class="cv-entry">
+<div class="cv-row">
+<div>
+<strong>Cancer Research Symposium</strong> – Morehouse School of
+Medicine   <span class="award-badge"><i class="fa fa-trophy"></i> 2nd
+Place</span>
+</div>
+<div class="cv-date">
+August 2025
+</div>
+</div>
+<div class="cv-sub">
+Histological Subtype, Stage at Diagnosis, and Socioeconomic Disparities
+in Lung Cancer Patients at Grady Health System
+</div>
+</div>
+<div class="cv-entry">
+<div class="cv-row">
+<div>
+<strong>Annual Research Day</strong> – Spelman College
+</div>
+<div class="cv-date">
+April 2023
+</div>
+</div>
+<div class="cv-sub">
+Strong Black Woman Schema and Emotional Overeating
+</div>
+</div>
+<hr />
+</div>
+<div id="publications" class="section level2">
+<h2>Publications</h2>
+<p>Smith, Z., and Isac, J. Small-Cell Versus Non-Small-Cell Lung Cancer
+Among African American Patients: Subtype Distributions and Associations
+with Smoking and Socioeconomic Status in a Safety-Net Hospital System.
+<strong>Manuscript in preparation</strong>, 2025.</p>
+<hr />
+</div>
+<div id="skills" class="section level2">
+<h2>Skills</h2>
+<div class="skills-grid">
+<div class="skill-block">
+<h4>
+Technical
+</h4>
+<p>
+R, SAS, SPSS, Docker, GitHub, R Markdown, ArcGIS Pro
+</p>
+</div>
+<div class="skill-block">
+<h4>
+Statistical
+</h4>
+<p>
+Survival Analysis, Causal Inference, Mixed Models, Machine Learning
+</p>
+</div>
+<div class="skill-block">
+<h4>
+Data Management
+</h4>
+<p>
+Multi-omic integration, single-cell analysis, EHR data processing
+</p>
+</div>
+<div class="skill-block">
+<h4>
+Languages
+</h4>
+<p>
+English (Native), Spanish (Fluent)
+</p>
+</div>
+</div>
+<hr />
+</div>
+<div id="leadership-and-service" class="section level2">
+<h2>Leadership and Service</h2>
+<div class="cv-entry">
+<div class="cv-row">
+<div>
+<strong>President</strong> (Former Secretary) – Rollins mHealth
+Collaborative, Emory University
+</div>
+<div class="cv-date">
+Sept 2024 – Nov 2025
+</div>
+</div>
+<ul>
+<li>
+Developed workshops in R, SAS, and Power BI; promoted digital health and
+data science literacy across Rollins School of Public Health
+</li>
+</ul>
+</div>
+<div class="cv-entry">
+<div class="cv-row">
+<div>
+<strong>Executive Co-Lead</strong> – Rollins Election Day Initiative
+(REDI), Emory University
+</div>
+<div class="cv-date">
+Jan – Nov 2025
+</div>
+</div>
+<ul>
+<li>
+Led civic engagement program to increase voter participation among
+public health students
+</li>
+</ul>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

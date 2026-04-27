@@ -1,0 +1,32 @@
+name: "zoli-smith"
+output_dir: docs
+
+navbar:
+  title: "Zoli Grace Smith"
+  left:
+    - text: "Home"
+      href: index.html
+      icon: fa-home
+    - text: "CV"
+      href: cv.html
+      icon: fa-file-alt
+    - text: "Projects"
+      href: projects.html
+      icon: fa-laptop-code
+  right:
+    - href: https://github.com/Zolismith19
+      icon: fa-github
+      title: GitHub
+    - href: https://www.linkedin.com/in/zoligsmith/
+      icon: fa-linkedin
+      title: LinkedIn
+    - href: mailto:zgsmit25@gmail.com
+      icon: fa-envelope
+      title: Email
+
+output:
+  html_document:
+    theme: flatly
+    css: styles.css
+    includes:
+      in_header: header.html

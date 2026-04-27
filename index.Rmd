@@ -1,0 +1,75 @@
+---
+title: "Zoli Grace Smith"
+---
+
+<div class="hero-section">
+<h1 class="hero-name">Zoli Grace Smith</h1>
+<p class="hero-tagline">MPH Candidate, Epidemiology &middot; Emory University</p>
+<p class="hero-tagline2">Incoming PhD Student, Health Science Informatics &middot; Johns Hopkins Medicine</p>
+<div class="hero-links">
+<a href="https://github.com/Zolismith19" class="hero-btn" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+<a href="https://www.linkedin.com/in/zoligsmith/" class="hero-btn" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a>
+<a href="cv.html" class="hero-btn"><i class="fa fa-file-alt"></i> CV</a>
+<a href="mailto:zgsmit25@gmail.com" class="hero-btn"><i class="fa fa-envelope"></i> Contact</a>
+</div>
+</div>
+
+---
+
+## About Me
+
+I am an MPH candidate in Epidemiology at the Rollins School of Public Health at Emory University, and an incoming PhD student in Health Science Informatics at Johns Hopkins Medicine. My work sits at the intersection of epidemiology, data science, and health equity, with a particular focus on transgender health, cardiovascular outcomes, and reproducible research methods.
+
+My current MPH thesis examines time-to-event analyses of cardiovascular outcomes including venous thromboembolism, ischemic stroke, and myocardial infarction among transmasculine individuals receiving testosterone therapy, using the STRONG cohort from Kaiser Permanente (N approximately 345,000). In parallel, I work as a research assistant in Dr. Chang Su's single-cell genomics lab, investigating enhancer-gene interactions in Alzheimer's disease using multi-omic data.
+
+I am passionate about making complex data accessible through interactive dashboards for clinicians, reproducible pipelines for collaborators, and accessible visualizations for policy audiences. I graduated summa cum laude from Spelman College in 2024, where I was a top 5 graduate and Ethell Wadell Githii Honors Scholar.
+
+---
+
+## Research Interests
+
+<div class="interest-grid">
+<div class="interest-card">
+<i class="fa fa-heartbeat interest-icon"></i>
+<h4>Cardiovascular Epidemiology</h4>
+<p>Studying CVD risk disparities in transgender populations using large EHR-based cohort data and survival models.</p>
+</div>
+<div class="interest-card">
+<i class="fa fa-dna interest-icon"></i>
+<h4>Genomics and Informatics</h4>
+<p>Analyzing single-cell multi-omic data to investigate transcriptional regulation and neurodegeneration in Alzheimer's disease.</p>
+</div>
+<div class="interest-card">
+<i class="fa fa-chart-bar interest-icon"></i>
+<h4>Data Science and Visualization</h4>
+<p>Building reproducible pipelines and interactive dashboards in R to communicate research findings to diverse audiences.</p>
+</div>
+<div class="interest-card">
+<i class="fa fa-balance-scale interest-icon"></i>
+<h4>Health Equity</h4>
+<p>Investigating disparities in cancer staging, transgender health outcomes, and global nutrition policy.</p>
+</div>
+</div>
+
+---
+
+## Recent News
+
+<div class="news-list">
+<div class="news-item">
+<span class="news-date">2025</span>
+<span class="news-text">Accepted to the PhD program in Health Science Informatics at Johns Hopkins Medicine (expected May 2030).</span>
+</div>
+<div class="news-item">
+<span class="news-date">Aug 2025</span>
+<span class="news-text">Won <strong>2nd Place</strong> at the Morehouse School of Medicine Cancer Research Symposium for poster on lung cancer disparities at Grady Health System.</span>
+</div>
+<div class="news-item">
+<span class="news-date">Oct 2025</span>
+<span class="news-text">Joined Dr. Chang Su's Single-Cell Genomics lab at Emory to investigate enhancer-gene regulation in Alzheimer's disease.</span>
+</div>
+<div class="news-item">
+<span class="news-date">May 2024</span>
+<span class="news-text">Graduated summa cum laude from Spelman College -- top 5 graduate and Ethell Wadell Githii Honors Scholar.</span>
+</div>
+</div>

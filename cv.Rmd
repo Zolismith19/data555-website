@@ -1,0 +1,213 @@
+---
+title: "Curriculum Vitae"
+---
+
+<div class="cv-bar">
+<i class="fa fa-envelope"></i> <a href="mailto:zgsmit25@gmail.com">zgsmit25@gmail.com</a> &nbsp;&nbsp;
+<i class="fa fa-phone"></i> (202) 815-7563 &nbsp;&nbsp;
+<i class="fa fa-github"></i> <a href="https://github.com/Zolismith19" target="_blank">Zolismith19</a> &nbsp;&nbsp;
+<i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/zoligsmith/" target="_blank">zoligsmith</a>
+</div>
+
+---
+
+## Education
+
+<div class="cv-entry">
+<div class="cv-row">
+<div><strong>Johns Hopkins Medicine</strong>, Baltimore, MD</div>
+<div class="cv-date">Expected May 2030</div>
+</div>
+<div class="cv-sub">PhD Student, Health Science Informatics</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-row">
+<div><strong>Emory University, Rollins School of Public Health</strong>, Atlanta, GA</div>
+<div class="cv-date">Expected May 2026</div>
+</div>
+<div class="cv-sub">MPH, Epidemiology</div>
+<ul>
+<li><strong>Thesis:</strong> Time-to-Event Analysis of Hormone Therapy Initiation and Cardiovascular Outcomes by Testosterone Dose and Route</li>
+<li><strong>Coursework:</strong> Statistical Methods I-II, Epidemiologic Methods I-III, Design and Implementation of Epidemiologic Studies, Applied Machine Learning, Large-Scale Biomedical Data Analysis, Genetic/Molecular Epidemiology</li>
+</ul>
+</div>
+
+<div class="cv-entry">
+<div class="cv-row">
+<div><strong>Spelman College</strong>, Atlanta, GA</div>
+<div class="cv-date">May 2024</div>
+</div>
+<div class="cv-sub">B.A. in Psychology (Minor: Spanish) -- Summa cum laude</div>
+<ul>
+<li>Top 5 Graduate; Ethell Wadell Githii Honors Scholar</li>
+<li><strong>Thesis:</strong> Strong Black Woman Schema and Emotional Overeating</li>
+</ul>
+</div>
+
+---
+
+## Certifications
+
+<div class="cv-entry">
+<div class="cv-row">
+<div><strong>CITI Certification</strong> -- Basic Course in Human Subjects Protection (Social/Behavioral Focus)</div>
+<div class="cv-date">August 2024</div>
+</div>
+</div>
+
+---
+
+## Research Experience
+
+<div class="cv-entry">
+<div class="cv-row">
+<div><strong>Single-Cell Genomics Research Assistant</strong> -- Emory University</div>
+<div class="cv-date">Oct 2025 -- Present</div>
+</div>
+<div class="cv-sub">PI: Dr. Chang Su</div>
+<ul>
+<li>Analyze single-cell multi-omic data using SCARlink, a regression framework linking chromatin accessibility and gene expression</li>
+<li>Investigate enhancer-gene interactions and transcriptional regulation in Alzheimer's disease</li>
+<li>Identify disrupted regulatory networks contributing to neurodegeneration</li>
+</ul>
+</div>
+
+<div class="cv-entry">
+<div class="cv-row">
+<div><strong>MPH Thesis -- STRONG Cohort</strong> -- Emory University</div>
+<div class="cv-date">May 2025 -- Present</div>
+</div>
+<ul>
+<li>Conducting time-to-event and causal inference analyses of EHR data for cardiovascular outcomes associated with testosterone therapy (N approximately 345,000)</li>
+<li>Build reproducible analytical pipelines, bias analysis, and missing data management</li>
+<li>Apply survival models, DAGs, and data cleaning workflows to real-world clinical data</li>
+</ul>
+</div>
+
+<div class="cv-entry">
+<div class="cv-row">
+<div><strong>Research Fellow -- Summer Cancer Research Education Program (SCREP)</strong> -- Morehouse School of Medicine</div>
+<div class="cv-date">June -- Aug 2025</div>
+</div>
+<ul>
+<li>Retrospective cohort study of 300 lung cancer patients at Grady Health System</li>
+<li>Used chi-square tests and logistic regression to assess disparities in staging and subtype</li>
+<li>Presented results at the Cancer Research Symposium (<strong>2nd Place Award</strong>)</li>
+</ul>
+</div>
+
+---
+
+## Data Science and Technical Experience
+
+<div class="cv-entry">
+<div class="cv-row">
+<div><strong>Data Science Intern</strong> -- CARE (Impact Partners), Remote/Atlanta, GA</div>
+<div class="cv-date">June -- Aug 2025</div>
+</div>
+<ul>
+<li>Analyzed baseline and endline survey data from cocoa-sector programs in Ghana and Cote d'Ivoire</li>
+<li>Synthesized quantitative and qualitative evidence into mixed-methods donor reports</li>
+</ul>
+</div>
+
+<div class="cv-entry">
+<div class="cv-row">
+<div><strong>Data Scientist -- DATA 550 GitHub Project</strong> -- Emory University</div>
+<div class="cv-date">Jan -- May 2025</div>
+</div>
+<ul>
+<li>Developed a fully reproducible data science pipeline integrating public health datasets through GitHub, R, and R Markdown</li>
+<li>Built modular scripts for data ingestion, cleaning, transformation, and visualization</li>
+</ul>
+</div>
+
+---
+
+## Teaching
+
+<div class="cv-entry">
+<div class="cv-row">
+<div><strong>Teaching Assistant, EPI 534</strong> -- Emory University</div>
+<div class="cv-date">Aug -- Dec 2025</div>
+</div>
+<ul>
+<li>Supported instruction for 46 MPH students in a core epidemiologic methods course</li>
+<li>Held weekly office hours, assisted with R- and SAS-based problem sets</li>
+<li>Collaborated with faculty to grade assignments and provide feedback</li>
+</ul>
+</div>
+
+---
+
+## Presentations
+
+<div class="cv-entry">
+<div class="cv-row">
+<div><strong>Cancer Research Symposium</strong> -- Morehouse School of Medicine &nbsp; <span class="award-badge"><i class="fa fa-trophy"></i> 2nd Place</span></div>
+<div class="cv-date">August 2025</div>
+</div>
+<div class="cv-sub">Histological Subtype, Stage at Diagnosis, and Socioeconomic Disparities in Lung Cancer Patients at Grady Health System</div>
+</div>
+
+<div class="cv-entry">
+<div class="cv-row">
+<div><strong>Annual Research Day</strong> -- Spelman College</div>
+<div class="cv-date">April 2023</div>
+</div>
+<div class="cv-sub">Strong Black Woman Schema and Emotional Overeating</div>
+</div>
+
+---
+
+## Publications
+
+Smith, Z., and Isac, J. Small-Cell Versus Non-Small-Cell Lung Cancer Among African American Patients: Subtype Distributions and Associations with Smoking and Socioeconomic Status in a Safety-Net Hospital System. **Manuscript in preparation**, 2025.
+
+---
+
+## Skills
+
+<div class="skills-grid">
+<div class="skill-block">
+<h4>Technical</h4>
+<p>R, SAS, SPSS, Docker, GitHub, R Markdown, ArcGIS Pro</p>
+</div>
+<div class="skill-block">
+<h4>Statistical</h4>
+<p>Survival Analysis, Causal Inference, Mixed Models, Machine Learning</p>
+</div>
+<div class="skill-block">
+<h4>Data Management</h4>
+<p>Multi-omic integration, single-cell analysis, EHR data processing</p>
+</div>
+<div class="skill-block">
+<h4>Languages</h4>
+<p>English (Native), Spanish (Fluent)</p>
+</div>
+</div>
+
+---
+
+## Leadership and Service
+
+<div class="cv-entry">
+<div class="cv-row">
+<div><strong>President</strong> (Former Secretary) -- Rollins mHealth Collaborative, Emory University</div>
+<div class="cv-date">Sept 2024 -- Nov 2025</div>
+</div>
+<ul>
+<li>Developed workshops in R, SAS, and Power BI; promoted digital health and data science literacy across Rollins School of Public Health</li>
+</ul>
+</div>
+
+<div class="cv-entry">
+<div class="cv-row">
+<div><strong>Executive Co-Lead</strong> -- Rollins Election Day Initiative (REDI), Emory University</div>
+<div class="cv-date">Jan -- Nov 2025</div>
+</div>
+<ul>
+<li>Led civic engagement program to increase voter participation among public health students</li>
+</ul>
+</div>

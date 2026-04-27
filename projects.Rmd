@@ -1,0 +1,69 @@
+---
+title: "Projects"
+---
+
+A selection of my graduate-level research and data science projects.
+
+---
+
+<div class="project-card">
+<div class="project-header">
+<div class="project-title-block">
+<h3>Cardiovascular Risk in Transmasculine Individuals</h3>
+<span class="project-tag">Epidemiology</span>
+<span class="project-tag">Survival Analysis</span>
+<span class="project-tag">Shiny Dashboard</span>
+<span class="project-tag">MPH Thesis</span>
+</div>
+<div class="project-links">
+<a href="https://li4oxd-applecare11s0s-smith.shinyapps.io/DASHBOARD/" target="_blank" class="project-btn"><i class="fa fa-external-link-alt"></i> Live Dashboard</a>
+<a href="https://github.com/Zolismith19/strong-dashboard" target="_blank" class="project-btn project-btn-outline"><i class="fa fa-github"></i> GitHub</a>
+</div>
+</div>
+
+This project forms the basis of my MPH thesis and examines cardiovascular risk -- venous thromboembolism (VTE), ischemic stroke, and myocardial infarction -- among transmasculine individuals receiving gender-affirming hormone therapy, compared to matched cisgender male and female referents.
+
+Data come from the STRONG cohort, an electronic medical record-based matched cohort study across Kaiser Permanente health systems (2006-2024), with approximately 345,000 participants. Using Cox proportional hazards models and cumulative incidence curves, I found that transmasculine individuals face elevated VTE and stroke risk relative to cisgender women, supporting the need for long-term cardiovascular monitoring for patients on testosterone therapy.
+
+The interactive dashboard was built in R using flexdashboard, Shiny, plotly, and DT, and deployed on shinyapps.io. It allows clinicians and researchers to explore cumulative incidence curves, forest plots of adjusted hazard ratios, and log-rank test results by cohort and outcome.
+
+<div class="project-meta">
+<i class="fa fa-database"></i> N = 345,000 &nbsp;|&nbsp;
+<i class="fa fa-tools"></i> R, SAS, Shiny, plotly &nbsp;|&nbsp;
+<i class="fa fa-calendar"></i> 2025-2026
+</div>
+</div>
+
+---
+
+<div class="project-card">
+<div class="project-header">
+<div class="project-title-block">
+<h3>Lung Cancer Disparities at Grady Health System</h3>
+<span class="project-tag">Cancer Epidemiology</span>
+<span class="project-tag">Health Equity</span>
+<span class="project-tag">Logistic Regression</span>
+<span class="project-tag award-tag">2nd Place Award</span>
+</div>
+</div>
+
+As a SCREP fellow at Morehouse School of Medicine, I conducted a retrospective cohort study of 300 lung cancer patients at Grady Health System, a major safety-net institution serving a predominantly African American population in Atlanta, Georgia.
+
+**Background:** Lung cancer is the leading cause of cancer-related mortality in the United States, with African American patients disproportionately affected in terms of incidence, late-stage diagnosis, and reduced access to treatment. Small-cell lung cancer (SCLC), representing 15-20% of cases, carries a significantly worse prognosis than non-small cell lung cancer (NSCLC). This study investigated whether African American patients are more likely to develop aggressive SCLC subtypes, or whether disparities stem primarily from delayed diagnosis.
+
+**Methods:** Retrospective cohort study of 300 adult patients with histologically confirmed primary lung cancer. Variables included race/ethnicity, histological subtype, TNM staging, treatment history, socioeconomic indicators, and smoking status. Statistical analysis used chi-square tests and multivariable logistic regression.
+
+**Key Findings:**
+
+- **Hypothesis refuted:** African American patients did NOT show higher rates of aggressive SCLC (19.7% vs. 25.9% in White patients; chi-square p = 0.55)
+- **Stage disparity identified:** African American patients were significantly more likely to present with advanced-stage disease (73.8% vs. 56.9% Stage III/IV; OR 2.13, 95% CI 1.15-3.94, p = 0.015)
+- **Equitable treatment access:** 90.7% of African American patients received treatment, comparable to 93.1% of White patients (p = 0.57)
+
+**Implications:** Disparities in lung cancer outcomes among African American patients are driven primarily by delayed diagnosis and structural barriers to early screening -- not by tumor biology. Public health efforts should expand lung cancer screening programs and address systemic obstacles to timely diagnosis. The safety-net model at Grady demonstrates that equitable treatment delivery is achievable when institutional barriers are minimized.
+
+<div class="project-meta">
+<i class="fa fa-database"></i> N = 300 patients &nbsp;|&nbsp;
+<i class="fa fa-tools"></i> SAS, SPSS &nbsp;|&nbsp;
+<i class="fa fa-calendar"></i> Summer 2025
+</div>
+</div>
