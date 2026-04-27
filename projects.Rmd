@@ -47,6 +47,10 @@ The interactive dashboard was built in R using flexdashboard, Shiny, plotly, and
 </div>
 </div>
 
+<div class="project-links" style="margin-bottom:1rem;">
+<a href="https://github.com/Zolismith19/data555-website/raw/main/screp_poster.pptx" target="_blank" class="project-btn"><i class="fa fa-download"></i> Download Poster</a>
+</div>
+
 As a SCREP fellow at Morehouse School of Medicine, I conducted a retrospective cohort study of 300 lung cancer patients at Grady Health System, a major safety-net institution serving a predominantly African American population in Atlanta, Georgia.
 
 **Background:** Lung cancer is the leading cause of cancer-related mortality in the United States, with African American patients disproportionately affected in terms of incidence, late-stage diagnosis, and reduced access to treatment. Small-cell lung cancer (SCLC), representing 15-20% of cases, carries a significantly worse prognosis than non-small cell lung cancer (NSCLC). This study investigated whether African American patients are more likely to develop aggressive SCLC subtypes, or whether disparities stem primarily from delayed diagnosis.
